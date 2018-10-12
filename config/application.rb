@@ -36,6 +36,6 @@ module RailsPortfolio
     #config.action_controller.permit_all_parameters = true
 
     # Load env
-    # config.secret_key_base = ENV["SECRET_KEY_BASE"]
+    config.secret_key_base = ENV["SECRET_KEY_BASE"]
   end
 end
